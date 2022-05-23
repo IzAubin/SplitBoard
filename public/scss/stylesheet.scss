@@ -1,0 +1,82 @@
+@import "./_variables.scss";
+
+* {
+  font-family: $hnFontFamily;
+  color: $allColor;
+}
+
+a {
+  color: $menuColor !important;
+  text-decoration: none; /* no underline */
+}
+
+.menu__jumbotron {
+  padding: 0 !important;
+  margin: 0 !important;
+
+  padding-top: 10px !important;
+  margin-bottom: 1rem !important;
+}
+
+.row_1 {
+  padding: $sidePadding;
+}
+// .MIQ__logo {
+
+// }
+
+.jumbotron {
+  background-color: $menuBgColor !important;
+}
+
+.menu__container {
+  padding: 15px 15px;
+}
+.jumbotron .menu__container .row h2 {
+  color: $menuColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $hnFontFamily;
+}
+
+h1 {
+  font-size: $h1Size !important;
+  font-weight: bold !important;
+}
+
+h2 {
+  font-size: $h2Size !important;
+  font-weight: bold !important;
+}
+h3 {
+  font-size: $h3Size !important;
+}
+h4 {
+  font-size: $h4Size !important;
+}
+h5 {
+  font-size: $h5Size !important;
+}
+h6 {
+  font-size: $h6Size !important;
+}
+
+p {
+  font-size: $pSize !important;
+}
+
+.liensInternes {
+  color: $menuBgColor !important;
+  // font-style: italic;
+}
+
+// .liensInternes:hover {
+ 
+//   font-style: italic;
+// }

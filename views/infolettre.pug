@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="Infolettre" content="Inscrivez-vous dès maintenant et recevez des offres exclusives, des promotions, des conseils et pour rester à jour des nouvelles tendances au monde du Splitboard.")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Splitboard-Infolettre
+        include head.pug
+    body
+    include menu.pug
+    .container
+        br
+        br
+        h1 Infolettre
+        br
+        <p style="text-align: justify; text-justify: inter-word;"> Inscrivez-vous dès maintenant et recevez des offres exclusives, des promotions, des conseils et pour rester à jour des nouvelles tendances au monde du <strong>splitboard</strong>.</p>
+        br
+        form(action="/infolettre" method="POST")
+            input(type="text" name="nom" placeholder="Nom...")
+            br
+            br
+            input(type="text" name="prenom" placeholder="Prenom...")
+            br
+            br
+            input(type="text" name="courriel" placeholder="Courriel...")
+            br
+            br
+            input(type="submit" value="Sauvegarder")
+            br
+            br
+            br
+            br
+        img(src="images/SkinTech2_C.jpg" alt="Des amis qui préparent leur équipement pour la descente.")

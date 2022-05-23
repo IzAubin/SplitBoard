@@ -1,0 +1,17 @@
+digital ocean Benefit:
+GIT21H2HUB100-4cc96a12
+
+putty:
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+public key1:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQGpiC7gBqrrEqAFAm7kht9S9K5vFi7Q1P4zByo1mUuBE0VxoiWrjs9xq6KmiLXKa0e9+7K266IB00sMo2qLiYJr0b7m+tBZ8iiXiGBJdkN4ZjZREc8CA2z39dFT6LxVayzZIy88gu1ktTAbkdBGicGKp+iytLCEWsMDXQ1R7QBOjUcBwezcQzopBkqtSPFqf0Gl0FY7wduQtOXQATyj3ezJwkQ1zL9Qvyta3mdokdgd+rKQi2O5jCchrLOlLTczqD97sEjugCHtoBxyMCO2WywJ6dh2z2drBj2w8kJw/huKe1j6tDwZ3RxETtIglliufPjkbdKZwj8qNOTF4ja56n rsa-key-20211121
+
+hostname:
+ubuntu-s-1vcpu-1gb-tor1-01
+
+pm2 install
+
+
+nameCheap
+C948C1F05B*0D4008B8A

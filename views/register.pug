@@ -1,0 +1,28 @@
+doctype html
+html(lang="fr")
+    head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible" content="IE=edge")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
+      meta(title="Creer un compte" description="Creer un compte")
+      title Splitboard-Communauté
+      include head.pug
+    body
+    include menu.pug
+    .container
+      h1 Créer un compte
+    
+      -if(messages.error) {
+        | #{messages.error}
+      -}
+
+      form(class="form-signin" method="POST" action="/register")
+        div
+          label( for="input_user" class="sr-only") Nom d'utilisateur:
+          input(type="string" name="username" id="input_user" class="form-control" placeholder="Nom d'utilisateur" required autofocus)
+        div
+          label(for="input_password" class="sr-only") Mot de passe:
+          input(type="password" name="password" id="input_password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$" class="form-control" placeholder="Mot de passe" required)
+        div
+          br
+          button(type="submit") Créer mon compte
